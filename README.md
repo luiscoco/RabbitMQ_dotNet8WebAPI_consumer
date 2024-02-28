@@ -151,7 +151,9 @@ app.Run();
 
 ## 6. Run and test the application
 
-We have first to run the producer application and send a messate to RabbitMQ queue "hello"
+We have first to run the producer application: https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer
+
+And send a messate from the producer app to RabbitMQ queue "hello"
 
 ![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_consumer/assets/32194879/4b5d32c1-ae0c-4413-862f-4fd38224d122)
 
