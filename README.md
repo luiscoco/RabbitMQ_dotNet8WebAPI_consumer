@@ -34,6 +34,30 @@ First, you will need to install the **RabbitMQ.Client** NuGet package in your pr
 dotnet add package RabbitMQ.Client
 ```
 
+This is the csproj file
+
+```csproj
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.2" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>
+```
+
+This is the project files and folders structure
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_consumer/assets/32194879/e2647f65-3c78-474a-b428-65cd8d33e418)
+
 ## 4. Create the Controller
 
 ```csharp
