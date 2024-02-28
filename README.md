@@ -151,4 +151,23 @@ app.Run();
 
 ## 6. Run and test the application
 
+We have first to run the producer application and send a messate to RabbitMQ queue "hello"
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_consumer/assets/32194879/4b5d32c1-ae0c-4413-862f-4fd38224d122)
+
+We run the application with this command
+
+```
+dotnet run
+```
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_consumer/assets/32194879/dcc8279f-827b-45d4-b50b-b32cab6586b8)
+
+We navigate to the application swagger API doc URL: http://localhost:5044/swagger/index.html
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_consumer/assets/32194879/e0ee4b7e-6d90-4a6d-a232-46bc9924a996)
+
+We received a message from RabbitMQ queue "hello"
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_consumer/assets/32194879/cb170ee9-dfe2-45a9-9380-ff41780d29e0)
 
